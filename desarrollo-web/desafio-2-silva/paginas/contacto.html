@@ -5,23 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EmprendER Project - Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/1c79d3fedd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Emprend<span>ER</span> Project</h1>
-        <nav>
-            <ul>
-                <li> <a href="../index.html"> Inicio </a> </li>
-                <li> <a href="./nosotros.html">Nosotros</a> </li>
-                <li> <a href="./objetivo.html">Objetivo</a> </li>
-                <li> <a href="./miembros.html">Miembros</a> </li>
-                <li> <a href="./contacto.html">Contacto</a> </li>
-            </ul>
+    <!--Boton para Subir -->
+    <a href="#cabecera">
+        <button class="botonSubir">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </a>
+      <!--Fin Boton para Subir -->
+
+    <header id="cabecera">
+        <h1 class="cabecera__titulo">
+          Emprend<span class="cabecera__titulo--especial">ER</span> Project
+        </h1>
+        <nav class="cabecera__navegacion">
+          <ul class="cabecera__botonera">
+            <li class="cabecera__boton"><a href="../index.html"> Inicio </a></li>
+            <li class="cabecera__boton">
+              <a href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="cabecera__boton">
+              <a href="./objetivo.html">Objetivo</a>
+            </li>
+            <li class="cabecera__boton">
+              <a href="./miembros.html">Miembros</a>
+            </li>
+            <li class="cabecera__boton">
+              <a href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
     <section>
-        <img src="https://images.unsplash.com/photo-1643101807745-b4f4741894f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de contacto" style="width:30%">
+        <img src="../assets/img/contacto-banner.avif" alt="Imagen de contacto">
 
         <!-- Imagen tomada de https://unsplash.com -->
 
@@ -74,6 +94,11 @@
         </article>
     </section>
 
-    <footer> <h5>Emprend<span>ER</span> Project &copy 2022 todos los derechos reservados.</h5> </footer>
+    <footer id="footer">
+      <h2 class="footer__titulo">
+        Emprend<span class="footer__titulo--especial">ER</span> Project.
+      </h2>
+      <p class="footer__parrafo">Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

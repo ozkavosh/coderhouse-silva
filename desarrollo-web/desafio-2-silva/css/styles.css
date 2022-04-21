@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --color-base: rgb(15, 110, 78);
+    --color-textos-comunes: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Cabecera y Footer*/
+
+#cabecera, #footer{
+    background-color: var(--color-base);
+    padding: 1.3rem;
+}
+
+.cabecera__titulo{
+    text-transform: uppercase;
+}
+
+.cabecera__titulo--especial, .footer__titulo--especial{
+    color: var(--color-textos-comunes);
+}
+
+.cabecera__boton{
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.cabecera__boton a{
+    color: var(--color-textos-comunes);
+    text-decoration: none;
+}
+
+/*Banner*/
+
+#banner{
+    height: 88vh;
+    background-image: url("../assets/img/home-banner.avif");
+    background-size: cover;
+}
+
+.banner__textos{
+    position: relative;
+    top: calc(100% - 10rem);
+    background-color: var(--color-base);
+    width: 50%;
+    border-top-right-radius: 4rem;
+    padding: 1rem;
+}
+
+.banner__titulo{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.banner__parrafo{
+    color: var(--color-textos-comunes);
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/*Como*/
+
+#como{
+    padding: 1rem 5.2rem 1rem 5.2rem;
+}
+
+.como__titulo{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.como__item--izquierdo, .como__item--derecho{
+    height: 15rem;
+    margin-bottom: 1rem;
+}
+
+.como__item__imagen--izquierdo{
+    width: 15rem;
+    height: 10rem;
+    background-color: var(--color-base);
+    float: left;
+}
+
+.como__item__titulo--izquierdo, .como__item__parrafo--izquierdo{
+    text-align: right;
+}
+
+.como__item__imagen--derecho{
+    width: 15rem;
+    height: 10rem;
+    background-color: var(--color-base);
+    float: right;
+}
+
+/*Boton Subir*/
+
+.botonSubir{
+    position: fixed;
+    background-color: var(--color-base);
+    color: var(--color-textos-comunes);
+    border: 0.1rem solid var(--color-textos-comunes);
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    left: calc(100% - 4rem);
+    top: calc(100% - 4rem);
+    z-index: 9999;
+}
