@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmprendER Project - Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Emprend<span>ER</span> Project</h1>
+        <nav>
+            <ul>
+                <li> <a href="../index.html"> Inicio </a> </li>
+                <li> <a href="nosotros.html">Nosotros</a> </li>
+                <li> <a href="objetivo.html">Objetivo</a> </li>
+                <li> <a href="miembros.html">Miembros</a> </li>
+                <li> <a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <img src="https://images.unsplash.com/photo-1643101807745-b4f4741894f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Imagen de contacto" style="width:30%">
+
+        <!-- Imagen tomada de https://unsplash.com -->
+
+        <h2>Contacto</h2>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nostrum atque, quod asperiores laudantium minus doloribus quibusdam dignissimos quas distinctio neque totam eaque iure obcaecati, cupiditate id aperiam quisquam exercitationem. </p>
+    </section>
+
+    <section>
+        <article>
+            <form action="#" method="post">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                
+                <div class="campo-formulario">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="correo">Correo:</label>
+                    <input type="text" name="correo" id="correo" placeholder="Correo" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" id="edad" placeholder="Edad" min="0" max="120" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="pais">Pais:</label>
+                <select name="pais" id="pais" required> 
+                    <option value="1">Pais 1</option>
+                    <option value="2">Pais 2</option>
+                    <option value="3">Pais 3</option> 
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="novedades">¿Te gustaria recibir novedades?</label>
+				    <input type="checkbox" name="novedades" value="1" required>
+                </div>
+
+                <div class="btn-formulario">
+                    <input type="button" value="Limpiar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </article>
+    </section>
+
+    <footer> <h5>Emprend<span>ER</span> Project &copy 2022 todos los derechos reservados.</h5> </footer>
+</body>
+</html>
