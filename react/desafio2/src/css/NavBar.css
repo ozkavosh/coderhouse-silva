@@ -6,21 +6,21 @@
     padding: 0 1rem 0 1rem;
 }
 
-.navButton:last-child{ 
-    font-size: 1.2rem;
-}
-
 .navButton{
     display: inline;
     margin-right: 0.5rem;
 }
 
-.navButton a{ 
+.navButton button{ 
     color: black;
     text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
-.navButton a:hover{ 
+.navButton button:hover{
     color: white;
 }
 
