@@ -1,0 +1,15 @@
+.cart{
+    position: relative;
+    font-size: 1.3rem;
+}
+
+.cartBadge{
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.3rem;
+    left: 100%;
+    bottom: 100%;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+}

@@ -1,0 +1,10 @@
+<Spread Operator>
+const array = [1, 2 , 3]
+const a = (...array) //a = [1, 2 , 3]
+const sum = (x,y,z) => x+y+z
+sum(...array) //resultado = 6
+
+<Funciones>
+
+<Object.entries(array)>
+retorna nuevo array como [['llave', 'valor'], ['llave', 'valor']]
