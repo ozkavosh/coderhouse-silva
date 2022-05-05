@@ -1,0 +1,31 @@
+.itemCount{
+    width: 15rem;
+    height: 12rem;
+    background: darkgray;
+    display: flex;
+    flex-flow: wrap column;
+    gap: 0.3rem;
+}
+
+.stock{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.addBtn, .minBtn{
+    width: 2rem;
+    height: 2rem;
+}
+
+.count{
+    width: calc(15rem - 4rem);
+    height: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.countContainer{
+    display: flex;
+    align-items: center;
+}

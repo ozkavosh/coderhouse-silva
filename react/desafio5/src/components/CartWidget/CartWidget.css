@@ -1,0 +1,25 @@
+.cart{
+    position: relative;
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cart:hover{
+    color: white;
+}
+
+.cartBadge{
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.3rem;
+    left: 80%;
+    bottom: 80%;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+}
