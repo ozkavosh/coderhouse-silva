@@ -1,0 +1,10 @@
+.itemListContainer h2{
+    padding: 0;
+    margin: 0;
+}
+
+.itemListContainer{
+    background-color: gray;
+    display: flex;
+    gap: 1rem;
+}
