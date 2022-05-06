@@ -22,7 +22,9 @@
 
     <header id="cabecera">
       <h1 class="cabecera__titulo">
-        <a href="../index.html">Emprend<span class="cabecera__titulo--especial">ER</span> Project</a>
+        <a href="../index.html">
+          <img src="../assets/img/logo.png" alt="Emprender" />
+        </a>
       </h1>
       <nav class="cabecera__navegacion">
         <ul class="cabecera__botonera">
@@ -36,7 +38,7 @@
           <li class="cabecera__boton">
             <a href="./afiliados.html">Afiliados</a>
           </li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton--contacto">
             <a href="./contacto.html">Contacto</a>
           </li>
         </ul>
@@ -215,10 +217,44 @@
     </main>
 
     <footer id="footer">
-      <h2 class="footer__titulo">
-        <a href="../index.html">Emprend<span class="cabecera__titulo--especial">ER</span> Project</a>
-      </h2>
-      <p class="footer__parrafo">Todos los derechos reservados.</p>
+      <div class="footer__informacion">
+        <h2 class="footer__titulo">
+          <a href="../index.html"> <img src="../assets/img/logo.png" /> </a>
+        </h2>
+        <p class="footer__parrafo">San Miguel de Tucumán, Argentina. 2022 Todos los derechos reservados &copy.</p>
+        <div class="footer__redes">
+          <a href=""> <i class="fab fa-facebook-square"></i> </a>
+
+          <a href=""> <i class="fab fa-instagram-square"></i> </a>
+
+          <a href=""> <i class="fab fa-twitter-square"></i> </a>
+        </div>
+      </div>
+
+      <ul class="footer__botonera">
+        <li class="footer__boton"><a href="../index.html"> Inicio </a></li>
+        <li class="footer__boton">
+          <a href="./nosotros.html">Nosotros</a>
+        </li>
+        <li class="footer__boton">
+          <a href="./objetivo.html">Objetivo</a>
+        </li>
+        <li class="footer__boton">
+          <a href="./afiliados.html">Afiliados</a>
+        </li>
+        <li class="footer__boton">
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+
+      <div class="footer__newsletter">
+        <h2 class="footer__newsletter__titulo">Suscribite a nuestras novedades</h2>
+        <p class="footer__newsletter__parrafo">Ingresa tu correo acá abajo para estar atento a todas nuestras novedades!</p>
+        <div class="footer__newsletter__barra">
+          <input class="footer__newsletter__input" type="email" placeholder="Ingresa tu correo" required>
+          <button type="submit" class="footer__newsletter__btn"><i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
