@@ -10,17 +10,6 @@
   "description": "desafio3 backend",
   "main": "server.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ozkavosh/coderhouse-silva.git#master"
-  },
-  "keywords": [
-    "desafio3"
-  ],
   "author": "ozkavosh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ozkavosh/coderhouse-silva/issues"
-  },
-  "homepage": "https://github.com/ozkavosh/coderhouse-silva/tree/master#readme"
+  "license": "ISC"
 }
