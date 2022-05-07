@@ -292,7 +292,8 @@ a img{
 .objetivos__item{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -300,10 +301,14 @@ a img{
     max-width: 50%;
 }
 
+.objetivos__item__parrafo{
+    text-align: justify;
+}
+
 .objetivos__item__numero{
     text-align: center;
-    background-color: var(--color-base);
-    color: var(--color-textos-comunes);
+    border: 2px dotted #ff7dd8;
+    color: #ff7dd8;
     width: 2rem;
     height: 2rem;
     border-radius: 1rem;
@@ -321,6 +326,7 @@ a img{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.4rem;
+    background-color: #ddd0bf;
 }
 
 .afiliados__item{
@@ -346,12 +352,12 @@ a img{
 }
 
 .afiliados__item__redes a{
-    color: var(--color-base);
+    color: #ff7dd8;
 }
 
-.afiliados__boton, .formulario__botones__limpiar, .formulario__botones__enviar{
-    background-color: var(--color-base);
-    color: var(--color-textos-comunes);
+.formulario__botones__limpiar, .formulario__botones__enviar{
+    background-color: #ff7dd8;
+    color: black;
     border: none;
     font-weight: bold;
     cursor: pointer;
@@ -361,53 +367,51 @@ a img{
 /*Contacto*/
 
 #contacto{
-    padding: 3rem 5% 3rem 5%; 
+    display: flex;
+    justify-content:center;
 }
 
-.contacto__contenedor{
-    padding: 3rem 0 3rem 0;
-    border: 4px dotted var(--color-base);
-}
-
-.contacto__contenedor__titulo{
-    text-transform: uppercase;
-    Font-weight: bold;
-    background-color: var(--color-base);
-    color: var(--color-textos-comunes);
-    padding: 0.2rem;
-}
-
-.contacto__contenedor__formulario{
+.contacto__formulario{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    padding: 3rem 1% 3rem 1%;
+    border: 4px dotted #ff7dd8;
     display: flex;
     flex-flow: wrap column;
     align-items: center;
     gap: 1rem;
 }
 
+.formulario__campo{
+    width: 80%;
+    text-align: center;
+}
+
 .formulario__campo__nombre, .formulario__campo__apellido{
     height: 2rem;
-    width: 15rem;
+    width: 47%;
     border-radius: 1rem;
     text-align: center;
 }
 
 .formulario__campo__correo{
     height: 2rem;
-    width: 31rem;
+    width: 100%;
     border-radius: 1rem;
     text-align: center;
 }
 
 .formulario__campo__edad{
     height: 2rem;
-    width: 5rem;
+    width: 20%;
     border-radius: 1rem;
     text-align: center;
 }
 
 .formulario__campo__pais{
     height: 2rem;
-    width: 25rem;
+    width: 77%;
     border-radius: 1rem;
     text-align: center;
 }
@@ -476,5 +480,9 @@ a img{
 
     .como__item__parrafo{
         display: none;
+    }
+
+    .objetivos__item__textos{
+        max-width: 65%;
     }
 }   
