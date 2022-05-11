@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmprendER Project - Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1c79d3fedd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <header id="cabecera">
+      <h1 class="cabecera__titulo">
+        <a href="../index.html">
+          <img src="../assets/img/logo.png" alt="Emprender" />
+        </a>
+      </h1>
+      <nav class="cabecera__navegacion">
+        <ul class="cabecera__botonera">
+          <li class="cabecera__boton"><a href="../index.html"> Inicio </a></li>
+          <li class="cabecera__boton">
+            <a href="./nosotros.html">Nosotros</a>
+          </li>
+          <li class="cabecera__boton">
+            <a href="./objetivo.html">Objetivo</a>
+          </li>
+          <li class="cabecera__boton">
+            <a href="./afiliados.html">Afiliados</a>
+          </li>
+          <li class="cabecera__boton--contacto">
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="cabecera__boton__hamburguesa"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <section id="banner">
+      <div class="banner__textos">
+        <h2 class="banner__titulo">Contacto</h2>
+        <p class="banner__parrafo">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+          nostrum atque, quod asperiores laudantium minus doloribus quibusdam
+          dignissimos quas distinctio neque totam eaque iure obcaecati,
+          cupiditate id aperiam quisquam exercitationem.
+        </p>
+      </div>
+
+      <div class="banner__imagen">
+        <img src="../assets/img/contacto.svg" alt="Imágen de portada" />
+      </div>
+    </section>
+
+    <main id="contacto">
+        <form class="contacto__formulario" action="#" method="post">
+          <div class="formulario__campo">
+            <input
+              class="formulario__campo__nombre"
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre"
+              required
+            />
+
+            <input
+              class="formulario__campo__apellido"
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Apellido"
+              required
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <input
+              class="formulario__campo__correo"
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="Correo"
+              required
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <input
+              class="formulario__campo__edad"
+              type="number"
+              name="edad"
+              id="edad"
+              placeholder="Edad"
+              min="0"
+              max="120"
+              required
+            />
+            <select
+              class="formulario__campo__pais"
+              name="pais"
+              id="pais"
+              required
+            >
+              <option value="0" selected disabled>Seleccione un Pais</option>
+              <option value="1">Pais 1</option>
+              <option value="2">Pais 2</option>
+              <option value="3">Pais 3</option>
+            </select>
+          </div>
+
+          <div class="formulario__campo">
+            <label for="novedades">¿Te gustaria recibir novedades?</label>
+            <input type="checkbox" name="novedades" value="1" required />
+          </div>
+
+          <div class="formulario__botones">
+            <input
+              class="formulario__botones__limpiar"
+              type="button"
+              value="Limpiar"
+            />
+            <input
+              class="formulario__botones__enviar"
+              type="submit"
+              value="Enviar"
+            />
+          </div>
+        </form>
+    </main>
+
+    <footer id="footer">
+      <div class="footer__informacion">
+        <h2 class="footer__titulo">
+          <a href="../index.html"> <img src="../assets/img/logo.png" /> </a>
+        </h2>
+        <p class="footer__parrafo">
+          San Miguel de Tucumán, Argentina. 2022 Todos los derechos reservados
+          &copy.
+        </p>
+        <div class="footer__redes">
+          <a href=""> <i class="fab fa-facebook-square"></i> </a>
+
+          <a href=""> <i class="fab fa-instagram-square"></i> </a>
+
+          <a href=""> <i class="fab fa-twitter-square"></i> </a>
+        </div>
+      </div>
+
+      <div class="footer__newsletter">
+        <h2 class="footer__newsletter__titulo">
+          Suscribite a nuestras novedades
+        </h2>
+        <p class="footer__newsletter__parrafo">
+          Ingresa tu correo acá abajo para estar atento a todas nuestras
+          novedades!
+        </p>
+        <div class="footer__newsletter__barra">
+          <input
+            class="footer__newsletter__input"
+            type="email"
+            placeholder="Ingresa tu correo"
+            required
+          />
+          <button type="submit" class="footer__newsletter__btn">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
