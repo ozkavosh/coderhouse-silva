@@ -10,8 +10,13 @@
       src="https://kit.fontawesome.com/1c79d3fedd.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
 
     <header id="cabecera">
       <h1 class="cabecera__titulo">
@@ -21,14 +26,14 @@
       </h1>
       <nav class="cabecera__navegacion">
         <ul class="cabecera__botonera">
-          <li class="cabecera__boton"><a href="../index.html"> Inicio </a></li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub"><a href="../index.html"> Inicio </a></li>
+          <li class="cabecera__boton sub">
             <a href="./nosotros.html">Nosotros</a>
           </li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub">
             <a href="./objetivo.html">Objetivo</a>
           </li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub">
             <a href="./afiliados.html">Afiliados</a>
           </li>
           <li class="cabecera__boton--contacto">
@@ -41,7 +46,7 @@
     </header>
 
     <section id="banner">
-      <div class="banner__textos">
+      <div class="banner__textos" data-aos="fade-right" data-aos-duration="1000">
         <h2 class="banner__titulo">Afiliados</h2>
         <p class="banner__parrafo">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro

@@ -10,12 +10,10 @@
       src="https://kit.fontawesome.com/1c79d3fedd.js"
       crossorigin="anonymous"
     ></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <!-- Prueba commit branch desafio5 -->
 
     <script>
@@ -30,14 +28,14 @@
       </h1>
       <nav class="cabecera__navegacion">
         <ul class="cabecera__botonera">
-          <li class="cabecera__boton"><a href="./index.html"> Inicio </a></li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub"><a href="./index.html"> Inicio </a></li>
+          <li class="cabecera__boton sub">
             <a href="./paginas/nosotros.html">Nosotros</a>
           </li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub">
             <a href="./paginas/objetivo.html">Objetivo</a>
           </li>
-          <li class="cabecera__boton">
+          <li class="cabecera__boton sub">
             <a href="./paginas/afiliados.html">Afiliados</a>
           </li>
           <li class="cabecera__boton--contacto">
@@ -46,11 +44,13 @@
         </ul>
       </nav>
 
-      <button class="cabecera__boton__hamburguesa"><i class="fas fa-bars"></i></button>
+      <button class="cabecera__boton__hamburguesa">
+        <i class="fas fa-bars"></i>
+      </button>
     </header>
 
     <section id="banner">
-      <div class="banner__textos">
+      <div class="banner__textos" data-aos="fade-right" data-aos-duration="1000">
         <h2 class="banner__titulo">Inicio</h2>
         <p class="banner__parrafo">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
@@ -75,39 +75,39 @@
         <div class="como__item__textos">
           <h4 class="como__item__titulo">Crea tu cuenta</h4>
           <p class="como__item__parrafo">
-            Comienza creando tu cuenta para darle forma al perfil de tu emprendimiento, sube una foto de perfil e incluso algunas del local en caso de tenerlo. Completa todos los datos para que tu negocio sea mas reconocible!
+            Comienza creando tu cuenta para darle forma al perfil de tu
+            emprendimiento, sube una foto de perfil e incluso algunas del local
+            en caso de tenerlo. Completa todos los datos para que tu negocio sea
+            mas reconocible!
           </p>
         </div>
       </article>
 
       <article class="como__item" data-aos="fade-left">
         <div class="como__item__imagen imagen__derecha">
-          <img
-            src="./assets/img/cohete.gif"
-            alt=""
-          />
+          <img src="./assets/img/cohete.gif" alt="" />
         </div>
 
         <div class="como__item__textos">
           <h4 class="como__item__titulo">Impulsa tu emprendimiento</h4>
           <p class="como__item__parrafo">
-            Vincula tus redes en tu perfil y comparte de forma automática el enlace al mismo! Recuerda que en caso de tener un catalogo tambien puedes subir una vista previa de los productos.
+            Vincula tus redes en tu perfil y comparte de forma automática el
+            enlace al mismo! Recuerda que en caso de tener un catalogo tambien
+            puedes subir una vista previa de los productos.
           </p>
         </div>
       </article>
 
       <article class="como__item" data-aos="fade-right">
         <div class="como__item__imagen">
-          <img
-            src="./assets/img/ahorrar-dinero.gif"
-            alt=""
-          />
+          <img src="./assets/img/ahorrar-dinero.gif" alt="" />
         </div>
 
         <div class="como__item__textos">
           <h4 class="como__item__titulo">Mejora tus ganancias</h4>
           <p class="como__item__parrafo">
-            Las personas podrán conocer tu emprendimiento por medio de tu perfil en el sitio y asi llegar a mucha más gente.
+            Las personas podrán conocer tu emprendimiento por medio de tu perfil
+            en el sitio y asi llegar a mucha más gente.
           </p>
         </div>
       </article>

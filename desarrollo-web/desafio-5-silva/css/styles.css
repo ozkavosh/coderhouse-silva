@@ -66,10 +66,6 @@ a img{
     text-decoration: none;
 }
 
-.cabecera__boton a:hover{
-    text-decoration: underline;
-}
-
 .cabecera__boton--contacto{
     background-color: #ff7dd8;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -414,6 +410,19 @@ a img{
     width: 77%;
     border-radius: 1rem;
     text-align: center;
+}
+
+/*Animaciones*/
+.sub {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.sub:hover, .sub:focus {
+    background-size: 100% 2px;
 }
 
 /*Tablet*/
