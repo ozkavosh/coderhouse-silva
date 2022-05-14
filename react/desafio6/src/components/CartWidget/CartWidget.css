@@ -1,0 +1,33 @@
+.cart{
+    align-self: flex-start;
+    position: relative;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cart:hover{
+    color: rgb(204, 204, 204);
+}
+
+.cartBadge{
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0.3rem;
+    left: 80%;
+    bottom: 80%;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+}
+
+@media screen and (max-width:575px){
+    .cart{
+        color: rgb(51, 51, 247);
+        margin-top: 1rem;
+    }
+}

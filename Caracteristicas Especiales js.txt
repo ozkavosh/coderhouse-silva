@@ -8,3 +8,33 @@ sum(...array) //resultado = 6
 
 <Object.entries(array)>
 retorna nuevo array como [['llave', 'valor'], ['llave', 'valor']]
+
+<Express>
+
+<Plantilla express>
+const express = require('express');
+const app = express();
+
+const PORT = 8080;
+
+const server = app.listen(PORT, ()=>{
+	console.log("Servidor listo y escuchando en el puerto ${server.addres().port}");
+});
+
+app.on('error',error=>console.log(error));
+
+<Query de busqueda express>
+https://servicio.com/api?busqueda=luis
+
+request.query = {'busqueda': 'luis'}
+
+<Parametros de busqueda express>
+
+app.get('/:id', (request, response)=>{
+	request.params = {'id': x}
+})
+
+<Configuracion especial express>
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+
