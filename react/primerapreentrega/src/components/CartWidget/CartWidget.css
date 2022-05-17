@@ -1,0 +1,12 @@
+.cart{
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cart:hover{
+    color: rgb(204, 204, 204);
+}

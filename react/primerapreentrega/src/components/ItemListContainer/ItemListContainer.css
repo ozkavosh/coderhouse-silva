@@ -1,0 +1,11 @@
+/* .itemListContainer h2{
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.itemListContainer{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    gap: 1rem;
+} */
